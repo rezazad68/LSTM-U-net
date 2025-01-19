@@ -40,6 +40,7 @@ For training deep model for each task, go to the related folder and follow the b
 4- For model training, run `train_retina.py`, it will load the training data and will use 20% of training samples as a validation set. The model will be train for 50 epochs and it will save the best weights for the valiation set.</br>
 4- For performance calculation and producing segmentation result, run `evaluate.py`. It will represent performance measures and will saves related figures and results in `test` folder.</br>
 Note: For image pre-processing and patch extraction we used [this](https://github.com/orobix/retina-unet) github's code.</br>
+5- For specific instructions to install dependencies and run the trained Retinal vessel segmentation model on a MacBook M4 Max 2024 with macOS Sequoia 15.3, refer to the `Retina Blood Vessel Segmentation/install_and_run.md` file.
 
 #### Lung Segmentation
 1- Download the Lung Segmentation dataset from [Kaggle](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data) link and extract it. </br>
